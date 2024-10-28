@@ -21,31 +21,11 @@ const { title, keywords } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<header>
+		
+<header >
 		<Navbar>
 		</header>
+
 		<slot />
 	</body>
 </html>
-<style is:global lang="scss">
-	:root {
-	}
-	html {
-	}
-	body {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
-</style>
