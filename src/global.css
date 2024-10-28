@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.ff-1{
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+.bg-primary{
+    background-color: #31b5d8;
+    color:white;
+}
+
+.text-primary{
+    color:#31b5d8;
+}
+
+
+/*NAV DESKTOP
+*/
+
